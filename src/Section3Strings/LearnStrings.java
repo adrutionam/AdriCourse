@@ -1,4 +1,4 @@
-package course;
+package Section3Strings;
 
 public class LearnStrings {
     public static void main(String [] args ){
@@ -9,6 +9,8 @@ public class LearnStrings {
         String vegetable = new String("broccoli");
         // in this type it doesn't check if the string is already present it just allocates memory regardless
         String anotherVegetable = new String("broccoli");
-        // a way to check the above given fact is that
+        // a way to check the above given fact is doing this
+        System.out.println(fruit == anotherFruit);
+        System.out.println(vegetable == anotherVegetable);
     }
 }

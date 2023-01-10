@@ -9,7 +9,7 @@
         System.out.println();
     }
 }
-public class Sec1Ex1 {
+public class Sec2Ex1 {
     Business Adri;
     {
         Adri = new Business();
