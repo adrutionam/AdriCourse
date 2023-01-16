@@ -18,7 +18,7 @@ public class LearnStripTrim {
         third line here
         */
         System.out.format("'%s'", firstName.stripIndent());
-        // you can also do this but it makes problem in formatting like giving indentations
+        // you can also do this, but it makes problem in formatting like giving indentations
         String firstTBalt = "first line here" +
                 "second line here" +
                 "third line here";
